@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/newlogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="500dp"
+        android:layout_centerHorizontal="true"
+        android:foregroundGravity="top"
+        app:srcCompat="@drawable/im1" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="525dp"
+        android:background="@android:color/background_light"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColorHint="#030303" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:text="@string/button" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="650dp"
+        android:text="@string/one"
+        android:textColor="#F44336"
+        android:textColorHint="#F44336" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:background="@android:color/background_light"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#030303" />
+
+
+</RelativeLayout>

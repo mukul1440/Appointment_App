@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "736587949605",
+    "firebase_url": "https://appointment-b8f65.firebaseio.com",
+    "project_id": "appointment-b8f65",
+    "storage_bucket": "appointment-b8f65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736587949605:android:b2970073eaa254f58581cc",
+        "android_client_info": {
+          "package_name": "com.example.hospital1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736587949605-t2qnse8sdvuvi3loto38gugk9ng3rhv4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMGYjZlD20SFPT5_jamzpHiJl-LhwwT88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736587949605-t2qnse8sdvuvi3loto38gugk9ng3rhv4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.hospital1.ui.home.HomeFragment"
+        android:label="@string/Home_header"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_status"
+        android:name="com.example.hospital1.status"
+        android:label="@string/menu_Status"
+        tools:layout="@layout/status_fragment" />
+
+    <fragment
+        android:id="@+id/nav_booked"
+        android:name="com.example.hospital1.booked"
+        android:label="@string/menu_Booked"
+        tools:layout="@layout/booked_fragment" />
+
+    <fragment
+        android:id="@+id/nav_exit"
+        android:name="com.example.hospital1.exit"
+        android:label="@string/menu_Exit"
+        tools:layout="@layout/exit_fragment" />
+
+    <fragment
+        android:id="@+id/nav_cancel"
+        android:name="com.example.hospital1.cancel"
+        android:label="@string/menu_Contact"
+        tools:layout="@layout/cancel_fragment" />
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.hospital1.contact"
+        android:label="@string/menu_Contact"
+        tools:layout="@layout/contact_fragment" />
+</navigation>
